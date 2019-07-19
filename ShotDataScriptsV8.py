@@ -147,11 +147,12 @@ def get_streaks(player):
 # In[17]:
 
 
-def main_thing():
+def get_player_data():
+    # Must match specific, case sensitive spelling as found in database.
     player = input("Enter a player's name: ")
     get_streaks(player)
     
-main_thing()
+get_player_data()
 
 input("Press key")
 
